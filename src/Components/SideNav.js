@@ -25,7 +25,7 @@ function SideNav(){
         <div className="sideNav">
             <div className="user">
                 <span>{currentUser.displayName}</span>
-                <button className='btn btn-dark btn-sm' onClick={logOut}>Log Out</button>
+                <button className='btn btn-primary btn-sm' onClick={logOut}>Log Out</button>
             </div>
             <hr className=""></hr>
         </div>

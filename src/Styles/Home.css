@@ -113,6 +113,10 @@
     font-size: 20px;
 }
 
+.home .input button{
+    width: 25%;
+}
+
 .home .message, .home .owner{
     display: flex;
     gap: 20px;
@@ -134,7 +138,7 @@
 }
 
 .home .message .messageContent p{
-    background-color: red;
+    background-color: #53d769;
     padding: 10px 20px;
     border-radius: 0px 10px 10px 10px;
     max-width: max-content;

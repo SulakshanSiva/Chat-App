@@ -47,7 +47,7 @@ function Input(){
             onChange={(e)=> setText(e.target.value)}> 
             </input>
 
-            <button onClick={handleSend}>Send</button>
+            <button className="btn btn-primary btn-sm" onClick={handleSend}>Send</button>
         </div>
     );
 }

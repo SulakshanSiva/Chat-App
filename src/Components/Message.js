@@ -1,15 +1,9 @@
-import { useContext, useEffect, useRef} from "react";
+import { useContext} from "react";
 import { AuthContext } from "../Context/AuthContext";
-import { ChatContext } from "../Context/ChatContext";
-
 
 const Message = ({message}) => {
 
     const {currentUser} = useContext(AuthContext);
-    // const { data } = useContext(ChatContext);
-
-    
-
     return(
         <div className={`message ${message.senderId === currentUser.uid && "owner"}`}>
             <div className="messageInfo">

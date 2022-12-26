@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 48px;
+}
+
+label, p{
+    font-size: 20px;
+}
+
+.box {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: solid transparent;
+    padding: 50px;
+    margin: 20px;
+    margin-top: 100px;
+    border-radius: 10px;
+    outline-style: outset;
+    box-shadow: 0px 0px 7px 7px gray;
+
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {   
+    cursor: pointer;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 100%;
+}
+
+.errorMsg{
+    color: red;
+}
+
+input{
+    width: 100%;
+}
+

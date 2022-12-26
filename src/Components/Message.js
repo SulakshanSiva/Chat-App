@@ -13,7 +13,6 @@ const Message = ({message}) => {
     return(
         <div className={`message ${message.senderId === currentUser.uid && "owner"}`}>
             <div className="messageInfo">
-                <span>just now</span>
             </div>
             <div className="messageContent">
                 <p>{message.text}</p>
